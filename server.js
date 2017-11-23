@@ -17,7 +17,7 @@ app.use(express.static(__dirname + '/public'));
 // On initialise notre module de routage
 router.init(app);
 
-// On demande à l'application d'écouter sur le port 8080
-app.listen(8080, () => {
+// On demande à l'application d'écouter soit sur le port défini par le système (Heroku définie le 80 de base), soit sur le port 8080
+app.listen(process.env.PORT || 8080, () => {
     console.log("Server listening on port 8080");
 });
