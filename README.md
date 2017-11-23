@@ -21,4 +21,8 @@ A noter que en version gratuite, quand l'application n'ets plus utilisée pendan
 
 Exemple de mon application: [https://frozen-forest-73233.herokuapp.com](https://frozen-forest-73233.herokuapp.com)
 
+### Méthode à la main
+
+Dites moi, je vous héberge l'appli sur un serveur.
+
 Bon courage :wink:
