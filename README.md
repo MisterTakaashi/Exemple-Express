@@ -16,3 +16,9 @@ Système de routage et de controllers.
 - Le deploiement via heroku se passe entièrement via GIT, avec ```heroku create```, heroku a ajouté un repository au projet nommé 'heroku', quand on veut mettre en production, il suffit de push l'application sur cette branche
 - ```git push heroku master``` pour envoyer l'application en prod
 - ```heroku open``` pour ouvrir l'application sur le navigateur
+
+A noter que en version gratuite, quand l'application n'ets plus utilisée pendant 30 minutes, celle ci se met en veille, la prochaine requete est un peu longue.
+
+Exemple de mon application: [https://frozen-forest-73233.herokuapp.com](https://frozen-forest-73233.herokuapp.com)
+
+Bon courage :wink:
