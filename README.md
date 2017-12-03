@@ -5,6 +5,25 @@ Système de routage et de controllers.
 - Framework: [Express](https://www.npmjs.com/package/express)
 - Moteur de templating: [EJS](https://www.npmjs.com/package/ejs)
 - Parser de requête POST: [body-parser](https://www.npmjs.com/package/body-parser)
+- Middleware pour CouchDB: [pouchdb](https://www.npmjs.com/package/pouchdb)
+- Plugin Find pour PouchDB: [pouchdb-find](https://www.npmjs.com/package/pouchdb-find)
+
+### Base de données
+
+CouchDB utilisé, base de données de test: ```test_couch```
+
+Une seule base de données, ajout d'un champs ```type``` sur les documents (User, Post, News, etc...) pour différencier les types de documents.
+
+##### Exemple de document:
+```javascript
+{
+  "_id": "1ec905a9436a1d9d4d2af4011d0034ce",
+  "_rev": "4-8d1831d7366d7fee6fee28ba995599de",
+  "name": "Michel",
+  "age": 21,
+  "type": "User"
+}
+```
 
 ### Mise en ligne
 #### Méthode Heroku
