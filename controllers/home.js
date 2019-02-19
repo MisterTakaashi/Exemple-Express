@@ -1,6 +1,4 @@
 // GET /
-exports.index = (req, res) => {
-  let db = require('../models/db').init();
-
+exports.index = (_, res) => {
   res.render('pages/home/index');
 }
